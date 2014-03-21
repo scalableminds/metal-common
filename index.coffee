@@ -4,8 +4,8 @@ exports.rewritePostFilenames   = require("./lib/rewrite_post_filenames")
 exports.removeUnderscoredFiles = require("./lib/remove_underscored_files")
 exports.markPosts              = require("./lib/mark_posts")
 exports.renderTemplates        = require("./lib/render_templates")
+exports.gulpBridge              = require("./lib/gulp_bridge")
 exports.permalinks             = require("metalsmith-permalinks")
-exports.registerExtensions     = require("./lib/extensions").register
 
 exports.logger = ->
 
