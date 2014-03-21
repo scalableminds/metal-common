@@ -1,0 +1,29 @@
+{
+  "name": "metal-common",
+  "version": "0.0.0",
+  "description": "A bunch of custom metalsmith plugins for static site generators",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scalableminds/metal-common.git"
+  },
+  "author": "Norman Rzepka <norman@scm.io> (http://scm.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scalableminds/metal-common/issues"
+  },
+  "homepage": "https://github.com/scalableminds/metal-common",
+  "dependencies": {
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.2.2",
+    "marked": "^0.3.2",
+    "async": "~0.2.9",
+    "lodash": "~2.4.1",
+    "coffee-script": "scalableminds/coffee-script",
+    "highlight.js": "^7.5.0",
+    "vinyl-fs": "^0.1.2",
+    "front-matter": "^0.2.0",
+    "moment": "^2.5.1",
+    "gulp-util": "^2.2.14"
+  }
+}
