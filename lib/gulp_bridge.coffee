@@ -21,8 +21,8 @@ module.exports = gulpBridge = (func) ->
       if vinyl.isNull()
         done()
         return
-      
-      // make path separators consistent
+        
+      # make path separators consistent
       filename = vinyl.relative.replace(/\\/g, "/")
 
       if utf8(vinyl.contents)
