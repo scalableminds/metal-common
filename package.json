@@ -19,7 +19,6 @@
     "marked": "^0.3.2",
     "async": "~0.2.9",
     "lodash": "~2.4.1",
-    "coffee-script": "scalableminds/coffee-script",
     "highlight.js": "^7.5.0",
     "vinyl-fs": "^0.1.2",
     "front-matter": "^0.2.0",
